@@ -23,7 +23,7 @@ As for gzip files, those can be compressed and decompress using the static `comp
 # Installation  
 DeflateX can be installed by simply downloading the zipped source code from the Releases sub-page and extracting it into your project, or by using *haxelib*:  
 1. Install by executing command: `haxelib install deflatex`.  
-2. Add to your project by including `-lib deflatex` in your *hxml* file. Or `<haxelib name="deflatex" />` if you're using the old *xml* format.  
+2. Add to your project by including `-lib deflatex` in your *hxml* file. Or `<haxelib name="deflatex" />` if you're using OpenFL's `project.xml`.  
 
 Once installed `Deflater` and `Inflater` classes should become available by importing the `deflatex` package.
 
