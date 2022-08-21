@@ -1,0 +1,73 @@
+-cp src
+-cp tests
+-main IntegrationTests
+--js bin/integration.js
+
+--next
+-cp src
+-cp tests
+-main IntegrationTests
+--hl bin/integration.hl
+
+--next
+-cp src
+-cp tests
+-main IntegrationTests
+--neko bin/integration.n
+
+--next
+-cp src
+-cp tests
+-main IntegrationTests
+-x IntegrationTests
+
+--next
+-cp src
+-cp tests
+-main IntegrationTests
+--cpp bin/integration_cpp
+-D windows
+
+--next
+-cp src
+-cp tests
+-main IntegrationTests
+--cs bin/integration_cs
+
+--next
+-cp src
+-cp tests
+-main IntegrationTests
+--java bin/integration_java
+
+--next
+-cp src
+-cp tests
+
+-main IntegrationTests
+--swf bin/integration.swf
+
+--next
+-cp src
+-cp tests
+-main IntegrationTests
+--jvm bin/integration.jar
+
+--next
+-cp src
+-cp tests
+
+-main IntegrationTests
+--lua bin/integration.lua
+
+--next
+-cp src
+-cp tests
+-main IntegrationTests
+--php bin/integration_php
+
+--next
+-cp src
+-cp tests
+-main IntegrationTests
+--python bin/integration.py

@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"haxeTestExplorer.testCommand": [
+			"${haxe}",
+			"tests.hxml",
+			"-lib",
+			"test-adapter"
+		]
+	}
+}
