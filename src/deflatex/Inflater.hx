@@ -75,7 +75,8 @@ import haxe.ds.Vector;
 	
 	private function processUncompressedBlock(input:BitsInput, output:BitsOutput) {
 		var len:Int = input.readInt16();
-		var nlen:Int = input.readInt16() ^ 0xffff;
+		//var nlen:Int = input.readInt16() ^ 0xffff;
+		var nlen:UInt = ~input.readInt16();
 		if (nlen != len) {
 			throw new Exception("Invalid block length");
 		}
